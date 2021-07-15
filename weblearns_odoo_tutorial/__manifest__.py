@@ -18,7 +18,7 @@
         'data/channel_data.xml',
         'data/slide_data.xml'
     ],
-    # 'images': ['static/description/banner.gif'],
+    'images': ['static/description/banner.gif'],
     'installable': True,
     'application': True
 }
