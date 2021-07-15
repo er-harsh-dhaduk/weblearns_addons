@@ -1,0 +1,5 @@
+*.pyc
+*.zip
+.DS_Store
+.pytest_cache
+.vscode
