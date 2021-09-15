@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="weblearns_orm_overview_slide" model="slide.slide">
+        <field name="name">Odoo ORM Fields</field>
+        <field name="sequence">0</field>
+        <field name="is_category" eval="True"/>
+        <field name="channel_id" ref="weblearns_odoo_fields_tutorial.weblearns_odoo_14_ormfields_development_channel"/>
+        <field name="slide_type">document</field>
+    </record>
+
+    <record id="weblearns_fields_1" model="slide.slide">
+        <field name="name">Character field</field>
+        <field name="sequence">1</field>
+        <field name="url">https://youtu.be/hOSgTJo3has</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="weblearns_odoo_fields_tutorial.weblearns_odoo_14_ormfields_development_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">Character field.</field>
+    </record>
+
+    <record id="weblearns_fields_2" model="slide.slide">
+        <field name="name">Boolean field</field>
+        <field name="sequence">2</field>
+        <field name="url">https://youtu.be/7zpk7GBqumQ</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="weblearns_odoo_fields_tutorial.weblearns_odoo_14_ormfields_development_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">Boolean field.</field>
+    </record>
+
+    <record id="weblearns_fields_3" model="slide.slide">
+        <field name="name">Field field</field>
+        <field name="sequence">3</field>
+        <field name="url">https://youtu.be/Sfalh5xjmOw</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="weblearns_odoo_fields_tutorial.weblearns_odoo_14_ormfields_development_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">Field field.</field>
+    </record>
+
+    <record id="weblearns_fields_4" model="slide.slide">
+        <field name="name">Integer field.</field>
+        <field name="sequence">4</field>
+        <field name="url">https://youtu.be/yWvRwUpfncE</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="weblearns_odoo_fields_tutorial.weblearns_odoo_14_ormfields_development_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">Integer field.</field>
+    </record>
+
+    <record id="weblearns_fields_5" model="slide.slide">
+        <field name="name">Text field</field>
+        <field name="sequence">5</field>
+        <field name="url">https://youtu.be/SYJ597a5Vak</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="weblearns_odoo_fields_tutorial.weblearns_odoo_14_ormfields_development_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">Text field.</field>
+    </record>
+
+    <record id="weblearns_fields_6" model="slide.slide">
+        <field name="name">Date field</field>
+        <field name="sequence">6</field>
+        <field name="url">https://youtu.be/v3Qye2Jeir4</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="weblearns_odoo_fields_tutorial.weblearns_odoo_14_ormfields_development_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">Date Field.</field>
+    </record>
+
+    <record id="weblearns_fields_7" model="slide.slide">
+        <field name="name">Datetime field</field>
+        <field name="sequence">7</field>
+        <field name="url">https://youtu.be/fpdDu9Q6jIY</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="weblearns_odoo_fields_tutorial.weblearns_odoo_14_ormfields_development_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">Datetime field.</field>
+    </record>
+
+    <record id="weblearns_fields_8" model="slide.slide">
+        <field name="name">Selection | Optional | Combobox field</field>
+        <field name="sequence">8</field>
+        <field name="url">https://www.youtube.com/watch?v=AXdUmbK_F94</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="weblearns_odoo_fields_tutorial.weblearns_odoo_14_ormfields_development_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">Selection | Optional | Combobox field.</field>
+    </record>
+
+    <record id="weblearns_fields_9" model="slide.slide">
+        <field name="name">Binary field</field>
+        <field name="sequence">9</field>
+        <field name="url">https://www.youtube.com/watch?v=5lHSWlOu4wc</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="weblearns_odoo_fields_tutorial.weblearns_odoo_14_ormfields_development_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">Binary field.</field>
+    </record>
+
+    <record id="weblearns_fields_10" model="slide.slide">
+        <field name="name">Image Field</field>
+        <field name="sequence">10</field>
+        <field name="url">https://www.youtube.com/watch?v=ASHX2BtdUz4</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="weblearns_odoo_fields_tutorial.weblearns_odoo_14_ormfields_development_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">Image Field.</field>
+    </record>
+
+    <record id="weblearns_fields_11" model="slide.slide">
+        <field name="name">HTML Field</field>
+        <field name="sequence">11</field>
+        <field name="url">https://www.youtube.com/watch?v=jjuZv2MHuxI</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="weblearns_odoo_fields_tutorial.weblearns_odoo_14_ormfields_development_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">HTML field.</field>
+    </record>
+
+    <record id="weblearns_fields_12" model="slide.slide">
+        <field name="name">Many2one field</field>
+        <field name="sequence">12</field>
+        <field name="url">https://www.youtube.com/watch?v=YKmVo6Oa84s</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="weblearns_odoo_fields_tutorial.weblearns_odoo_14_ormfields_development_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">Many2one field.</field>
+    </record>
+
+    <record id="weblearns_fields_13" model="slide.slide">
+        <field name="name">One2Many Field</field>
+        <field name="sequence">13</field>
+        <field name="url">https://www.youtube.com/watch?v=2k9YB7l4RGI</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="weblearns_odoo_fields_tutorial.weblearns_odoo_14_ormfields_development_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">One2many field.</field>
+    </record>
+
+    <record id="weblearns_fields_14" model="slide.slide">
+        <field name="name">Custom View and Attributes | One2many field</field>
+        <field name="sequence">14</field>
+        <field name="url">https://www.youtube.com/watch?v=dTHDNKCkkGE</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="weblearns_odoo_fields_tutorial.weblearns_odoo_14_ormfields_development_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">Custom View and Attribute of Relational Field on Odoo: One2many Relational Fields | Datatype.</field>
+    </record>
+
+    <record id="weblearns_fields_15" model="slide.slide">
+        <field name="name">Many2many Field</field>
+        <field name="sequence">15</field>
+        <field name="url">https://www.youtube.com/watch?v=sThtNGSn3Oc</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="weblearns_odoo_fields_tutorial.weblearns_odoo_14_ormfields_development_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">Create Many2Many Field | Datatype In Odoo | Odoo Fields Tutorial.</field>
+    </record>
+
+    <record id="weblearns_fields_16" model="slide.slide">
+        <field name="name">Many2Many Field Widget And Attributes</field>
+        <field name="sequence">16</field>
+        <field name="url">https://www.youtube.com/watch?v=oNt8XP2glsg</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="weblearns_odoo_fields_tutorial.weblearns_odoo_14_ormfields_development_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">Many2Many Field Widget And Attributes.</field>
+    </record>
+
+    <record id="weblearns_fields_17" model="slide.slide">
+        <field name="name">Related Field</field>
+        <field name="sequence">17</field>
+        <field name="url">https://www.youtube.com/watch?v=PbsCiwlRwK4</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="weblearns_odoo_fields_tutorial.weblearns_odoo_14_ormfields_development_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">Related Field.</field>
+    </record>
+
+    <record id="weblearns_fields_18" model="slide.slide">
+        <field name="name">Compute field</field>
+        <field name="sequence">17</field>
+        <field name="url">https://www.youtube.com/watch?v=T2m6I7lK58s</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="weblearns_odoo_fields_tutorial.weblearns_odoo_14_ormfields_development_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">compute field in Odoo | onchange field, @api.depends decorator.</field>
+    </record>
+
+    <record id="weblearns_fields_19" model="slide.slide">
+        <field name="name">Monetary field</field>
+        <field name="sequence">17</field>
+        <field name="url">https://www.youtube.com/watch?v=pPyC0dT3QgU</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="weblearns_odoo_fields_tutorial.weblearns_odoo_14_ormfields_development_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">Monetary field.</field>
+    </record>
+
+    <record id="weblearns_fields_20" model="slide.slide">
+        <field name="name">Reference field</field>
+        <field name="sequence">17</field>
+        <field name="url">https://www.youtube.com/watch?v=P6F_BPf1KuI</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="weblearns_odoo_fields_tutorial.weblearns_odoo_14_ormfields_development_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">Reference field.</field>
+    </record>
+
+    <record id="weblearns_fields_21" model="slide.slide">
+        <field name="name">Dynamic filter for Many2one Field</field>
+        <field name="sequence">17</field>
+        <field name="url">https://www.youtube.com/watch?v=_cfXdXxiL8E</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="weblearns_odoo_fields_tutorial.weblearns_odoo_14_ormfields_development_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">Dynamic filter for Many2one Field | Return domain using onchange method | subfield domain.</field>
+    </record>
+
+</odoo>

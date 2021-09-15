@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 
-    <record id="weblearns_odoo_14_orm_development_channel" model="slide.channel">
-        <field name="name">Odoo ORM Methods Developement</field>
+    <record id="weblearns_odoo_14_ormfields_development_channel" model="slide.channel">
+        <field name="name">Odoo ORM Fields Developement</field>
         <field name="user_id" ref="base.user_admin"/>
         <field name="enroll">public</field>
         <field name="channel_type">training</field>
@@ -13,8 +13,8 @@
                                         ref('website_slides.slide_channel_tag_level_advanced')])]" />
         <field name="promote_strategy">latest</field>
         <field name="is_published" eval="True"/>
-        <field name="image_1920" type="base64" file="weblearns_odoo_orm_tutorial/static/description/learns.png"/>
-        <field name="description">Odoo ORM methods development tutorial from scratch.</field>
+        <field name="image_1920" type="base64" file="weblearns_odoo_fields_tutorial/static/description/learns.png"/>
+        <field name="description">Odoo fields tutorial from scratch.</field>
         <field name="create_date" eval="DateTime.now() - relativedelta(days=7)"/>
     </record>
 
