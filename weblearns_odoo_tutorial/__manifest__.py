@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 {
-    'name': 'Odoo 14 Technical / Development Tutorial',
+    'name': 'Odoo Development Tutorial',
     'version': '14.0.0.1.0',
-    'summary': 'Odoo 14 Development Tutorial',
+    'summary': 'Odoo Development Tutorial',
     'sequence': -111,
     'description': 'Odoo 14 Development Tutorial',
     'category': 'Tutorials',

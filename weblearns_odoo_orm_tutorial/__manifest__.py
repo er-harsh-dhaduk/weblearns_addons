@@ -2,7 +2,7 @@
 {
     'name': 'Odoo ORM Tutorial',
     'version': '14.0.0.1.0',
-    'summary': 'Odoo 14 ORM Development Tutorial',
+    'summary': 'Odoo ORM Development Tutorial',
     'sequence': -111,
     'description': 'Odoo 14 ORM Development Tutorial',
     'category': 'Tutorials',
