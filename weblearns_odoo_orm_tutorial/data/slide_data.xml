@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="weblearns_orm_overview_slide" model="slide.slide">
+        <field name="name">Odoo ORM Method</field>
+        <field name="sequence">0</field>
+        <field name="is_category" eval="True"/>
+        <field name="channel_id" ref="weblearns_odoo_orm_tutorial.weblearns_odoo_14_orm_development_channel"/>
+        <field name="slide_type">document</field>
+    </record>
+
+    <record id="weblearns_orm_slide_1" model="slide.slide">
+        <field name="name">ORM Methods Overview</field>
+        <field name="sequence">1</field>
+        <field name="url">https://youtu.be/fsQo7RrHvXE</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="weblearns_odoo_orm_tutorial.weblearns_odoo_14_orm_development_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">ORM methods overview.</field>
+    </record>
+
+    <record id="weblearns_orm_slide_2" model="slide.slide">
+        <field name="name">Create Method</field>
+        <field name="sequence">2</field>
+        <field name="url">https://youtu.be/76LGYkRCSmI</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="weblearns_odoo_orm_tutorial.weblearns_odoo_14_orm_development_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">How to use create method and override this method.</field>
+    </record>
+
+    <record id="weblearns_orm_slide_3" model="slide.slide">
+        <field name="name">Write Method</field>
+        <field name="sequence">3</field>
+        <field name="url">https://youtu.be/15wqiLG-L8Q</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="weblearns_odoo_orm_tutorial.weblearns_odoo_14_orm_development_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">How to use write method and override this method.</field>
+    </record>
+
+    <record id="weblearns_orm_slide_4" model="slide.slide">
+        <field name="name">COPY method.</field>
+        <field name="sequence">4</field>
+        <field name="url">https://youtu.be/Eu9ZQSc5nx4</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="weblearns_odoo_orm_tutorial.weblearns_odoo_14_orm_development_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">How to use copy method and override this method.</field>
+    </record>
+
+    <record id="weblearns_orm_slide_5" model="slide.slide">
+        <field name="name">Delete/Unlink method</field>
+        <field name="sequence">5</field>
+        <field name="url">https://youtu.be/kqSM4P9QEBM</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="weblearns_odoo_orm_tutorial.weblearns_odoo_14_orm_development_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">How to use unlink method and override this method.</field>
+    </record>
+
+    <record id="weblearns_orm_slide_6" model="slide.slide">
+        <field name="name">name_create method</field>
+        <field name="sequence">6</field>
+        <field name="url">https://youtu.be/wGTJ_sOKvok</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="weblearns_odoo_orm_tutorial.weblearns_odoo_14_orm_development_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">How to use name_create method.</field>
+    </record>
+
+    <record id="weblearns_orm_slide_7" model="slide.slide">
+        <field name="name">default_get method</field>
+        <field name="sequence">7</field>
+        <field name="url">https://youtu.be/HiFRydHXdC0</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="weblearns_odoo_orm_tutorial.weblearns_odoo_14_orm_development_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">How to use default_get method and purpose of this method.</field>
+    </record>
+
+    <record id="weblearns_orm_slide_8" model="slide.slide">
+        <field name="name">Browse method</field>
+        <field name="sequence">8</field>
+        <field name="url">https://www.youtube.com/watch?v=bBUBQdK3Qgs</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="weblearns_odoo_orm_tutorial.weblearns_odoo_14_orm_development_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">How to use browse method.</field>
+    </record>
+
+    <record id="weblearns_orm_slide_9" model="slide.slide">
+        <field name="name">Search method</field>
+        <field name="sequence">9</field>
+        <field name="url">https://www.youtube.com/watch?v=5Yn_1-LOOFk</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="weblearns_odoo_orm_tutorial.weblearns_odoo_14_orm_development_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">How to use search method.</field>
+    </record>
+
+    <record id="weblearns_orm_slide_10" model="slide.slide">
+        <field name="name">search_count method</field>
+        <field name="sequence">10</field>
+        <field name="url">https://www.youtube.com/watch?v=8SXnhxHim1Q</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="weblearns_odoo_orm_tutorial.weblearns_odoo_14_orm_development_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">How to use search_count method.</field>
+    </record>
+
+    <record id="weblearns_orm_slide_11" model="slide.slide">
+        <field name="name">read method</field>
+        <field name="sequence">11</field>
+        <field name="url">https://www.youtube.com/watch?v=C17-0eIIfFc</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="weblearns_odoo_orm_tutorial.weblearns_odoo_14_orm_development_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">How to use read method.</field>
+    </record>
+
+    <record id="weblearns_orm_slide_12" model="slide.slide">
+        <field name="name">exists method</field>
+        <field name="sequence">12</field>
+        <field name="url">https://www.youtube.com/watch?v=NGWDTxt8aDw</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="weblearns_odoo_orm_tutorial.weblearns_odoo_14_orm_development_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">How to use exists() method.</field>
+    </record>
+
+    <record id="weblearns_orm_slide_13" model="slide.slide">
+        <field name="name">ensure_one method</field>
+        <field name="sequence">13</field>
+        <field name="url">https://www.youtube.com/watch?v=6deqCYVUwK4</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="weblearns_odoo_orm_tutorial.weblearns_odoo_14_orm_development_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">How to use ensure_one() method.</field>
+    </record>
+
+    <record id="weblearns_orm_slide_14" model="slide.slide">
+        <field name="name">get_metadata method</field>
+        <field name="sequence">14</field>
+        <field name="url">https://www.youtube.com/watch?v=W2PkPCUu4-Q</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="weblearns_odoo_orm_tutorial.weblearns_odoo_14_orm_development_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">How to use get_metadata() method.</field>
+    </record>
+
+    <record id="weblearns_orm_slide_15" model="slide.slide">
+        <field name="name">fields_get method</field>
+        <field name="sequence">15</field>
+        <field name="url">https://www.youtube.com/watch?v=g1UTpcADUvo</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="weblearns_odoo_orm_tutorial.weblearns_odoo_14_orm_development_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">How to use fields_get() method.</field>
+    </record>
+
+    <record id="weblearns_orm_slide_16" model="slide.slide">
+        <field name="name">read_group method</field>
+        <field name="sequence">16</field>
+        <field name="url">https://www.youtube.com/watch?v=4Xe8foxYRXs</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="weblearns_odoo_orm_tutorial.weblearns_odoo_14_orm_development_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">How to use read_group method.</field>
+    </record>
+
+    <record id="weblearns_orm_slide_17" model="slide.slide">
+        <field name="name">fields_view_get method</field>
+        <field name="sequence">17</field>
+        <field name="url">https://www.youtube.com/watch?v=0s5e_2trUnk</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="weblearns_odoo_orm_tutorial.weblearns_odoo_14_orm_development_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">How to use fields_view_get method and override this method.</field>
+    </record>
+
+    <record id="weblearns_orm_slide_18" model="slide.slide">
+        <field name="name">name_get method</field>
+        <field name="sequence">17</field>
+        <field name="url">https://www.youtube.com/watch?v=k6BAwem8boA</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="weblearns_odoo_orm_tutorial.weblearns_odoo_14_orm_development_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">How to use name_get method.</field>
+    </record>
+
+    <record id="weblearns_orm_slide_19" model="slide.slide">
+        <field name="name">filtered method</field>
+        <field name="sequence">17</field>
+        <field name="url">https://www.youtube.com/watch?v=J6e13OIgE3w</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="weblearns_odoo_orm_tutorial.weblearns_odoo_14_orm_development_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">How to use filtered method.</field>
+    </record>
+
+    <record id="weblearns_orm_slide_20" model="slide.slide">
+        <field name="name">search vs _search method</field>
+        <field name="sequence">17</field>
+        <field name="url">https://www.youtube.com/watch?v=qvQ-8716qeM</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="weblearns_odoo_orm_tutorial.weblearns_odoo_14_orm_development_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">Difference between search vs _search method.</field>
+    </record>
+
+    <record id="weblearns_orm_slide_21" model="slide.slide">
+        <field name="name">sorted method</field>
+        <field name="sequence">17</field>
+        <field name="url">https://www.youtube.com/watch?v=WYJSK2-i9ow</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="weblearns_odoo_orm_tutorial.weblearns_odoo_14_orm_development_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">How to use sorted method and override this method.</field>
+    </record>
+
+    <record id="weblearns_orm_slide_22" model="slide.slide">
+        <field name="name">Create custom method</field>
+        <field name="sequence">17</field>
+        <field name="url">https://www.youtube.com/watch?v=infPhd6zpKM</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="weblearns_odoo_orm_tutorial.weblearns_odoo_14_orm_development_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">How to create custom method.</field>
+    </record>
+
+    <record id="weblearns_orm_slide_23" model="slide.slide">
+        <field name="name">Execute SQL query method</field>
+        <field name="sequence">17</field>
+        <field name="url">https://www.youtube.com/watch?v=DrXRJBcYfPk</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="weblearns_odoo_orm_tutorial.weblearns_odoo_14_orm_development_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">How to perform execute SQL query.</field>
+    </record>
+
+</odoo>

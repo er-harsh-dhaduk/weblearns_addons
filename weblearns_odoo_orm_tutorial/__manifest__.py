@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 {
-    'name': 'Odoo 14 Technical / Development Tutorial',
+    'name': 'Odoo ORM Tutorial',
     'version': '14.0.0.1.0',
-    'summary': 'Odoo 14 Development Tutorial',
+    'summary': 'Odoo 14 ORM Development Tutorial',
     'sequence': -111,
-    'description': 'Odoo 14 Development Tutorial',
+    'description': 'Odoo 14 ORM Development Tutorial',
     'category': 'Tutorials',
     'author': 'Weblearns',
     'maintainer': 'Weblearns',
