@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="weblearns_slide_csvxml_data" model="slide.slide">
+        <field name="name">Data File Tutorial</field>
+        <field name="sequence">0</field>
+        <field name="is_category" eval="True"/>
+        <field name="channel_id" ref="odoo_data_file_tutorial.weblearns_odoo_csv_xml_data_channel"/>
+        <field name="slide_type">document</field>
+    </record>
+
+    <record id="weblearns_slide_csvxml_data_1" model="slide.slide">
+        <field name="name">Create record using csv</field>
+        <field name="sequence">1</field>
+        <field name="url">https://www.youtube.com/watch?v=cSv6QdC81FU</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="odoo_data_file_tutorial.weblearns_odoo_csv_xml_data_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">Using csv file create records.</field>
+    </record>
+
+    <record id="weblearns_slide_csvxml_data_2" model="slide.slide">
+        <field name="name">M2O Field in CSV</field>
+        <field name="sequence">2</field>
+        <field name="url">https://www.youtube.com/watch?v=7ZfaJampQUI</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="odoo_data_file_tutorial.weblearns_odoo_csv_xml_data_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">Many2one field add in csv file.</field>
+    </record>
+
+    <record id="weblearns_slide_csvxml_data_3" model="slide.slide">
+        <field name="name">O2M Field in CSV</field>
+        <field name="sequence">3</field>
+        <field name="url">https://www.youtube.com/watch?v=1N395tZluiU</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="odoo_data_file_tutorial.weblearns_odoo_csv_xml_data_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">One2many field in CSV.</field>
+    </record>
+
+    <record id="weblearns_slide_csvxml_data_4" model="slide.slide">
+        <field name="name">Many2Many Field in CSV</field>
+        <field name="sequence">4</field>
+        <field name="url">https://www.youtube.com/watch?v=tjqf1fHA_aE</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="odoo_data_file_tutorial.weblearns_odoo_csv_xml_data_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">Many2Many field in CSV.</field>
+    </record>
+
+    <record id="weblearns_slide_csvxml_data_5" model="slide.slide">
+        <field name="name">Create record using XML file</field>
+        <field name="sequence">5</field>
+        <field name="url">https://www.youtube.com/watch?v=zp2OEzi6onw</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="odoo_data_file_tutorial.weblearns_odoo_csv_xml_data_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">Create record using XML file.</field>
+    </record>
+
+    <record id="weblearns_slide_csvxml_data_6" model="slide.slide">
+        <field name="name">M2O Field in XML</field>
+        <field name="sequence">6</field>
+        <field name="url">https://www.youtube.com/watch?v=k4WZr_Ij4r8</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="odoo_data_file_tutorial.weblearns_odoo_csv_xml_data_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">How to add many2one field in XML.</field>
+    </record>
+
+    <record id="weblearns_slide_csvxml_data_11" model="slide.slide">
+        <field name="name">One2Many Field in XML</field>
+        <field name="sequence">11</field>
+        <field name="url">https://www.youtube.com/watch?v=AwwBBjCIiA</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="odoo_data_file_tutorial.weblearns_odoo_csv_xml_data_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">How to add One2many field in XML.</field>
+    </record>
+
+    <record id="weblearns_slide_csvxml_data_12" model="slide.slide">
+        <field name="name">Many2Many Field in XML</field>
+        <field name="sequence">12</field>
+        <field name="url">https://www.youtube.com/watch?v=4NUgRhAh4XU</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="odoo_data_file_tutorial.weblearns_odoo_csv_xml_data_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">Add many2many field in XML file.</field>
+    </record>
+
+    <record id="weblearns_slide_csvxml_data_13" model="slide.slide">
+        <field name="name">Call function from XML file</field>
+        <field name="sequence">13</field>
+        <field name="url">https://www.youtube.com/watch?v=IArkWVujExo</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="odoo_data_file_tutorial.weblearns_odoo_csv_xml_data_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">How to call method or function through xml file.</field>
+    </record>
+
+    <record id="weblearns_slide_csvxml_data_14" model="slide.slide">
+        <field name="name">Delete records</field>
+        <field name="sequence">14</field>
+        <field name="url">https://www.youtube.com/watch?v=yIb4i00UiWs</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="odoo_data_file_tutorial.weblearns_odoo_csv_xml_data_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">Delete records through xml file.</field>
+    </record>
+
+    <record id="weblearns_slide_csvxml_data_15" model="slide.slide">
+        <field name="name">Delete multiple records</field>
+        <field name="sequence">15</field>
+        <field name="url">https://www.youtube.com/watch?v=TBuanF4dyQM</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="odoo_data_file_tutorial.weblearns_odoo_csv_xml_data_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">Delete multiple records.</field>
+    </record>
+
+    <record id="weblearns_slide_csvxml_data_16" model="slide.slide">
+        <field name="name">Noupdate 0 or 1</field>
+        <field name="sequence">16</field>
+        <field name="url">https://www.youtube.com/watch?v=5EjnWquXfN0</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="odoo_data_file_tutorial.weblearns_odoo_csv_xml_data_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">How to use noupdate 0 or 1.</field>
+    </record>
+
+        <record id="weblearns_slide_csvxml_data_17" model="slide.slide">
+        <field name="name">Create demo data</field>
+        <field name="sequence">16</field>
+        <field name="url">https://www.youtube.com/watch?v=U-JyJKF5_s4</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="odoo_data_file_tutorial.weblearns_odoo_csv_xml_data_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">Create demo data.</field>
+    </record>
+
+        <record id="weblearns_slide_csvxml_data_18" model="slide.slide">
+        <field name="name">CSV vs XML Difference</field>
+        <field name="sequence">16</field>
+        <field name="url">https://www.youtube.com/watch?v=UkLLrFNRf7A</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="odoo_data_file_tutorial.weblearns_odoo_csv_xml_data_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">Finally you can see diff of csv and xml file.</field>
+    </record>
+</odoo>
