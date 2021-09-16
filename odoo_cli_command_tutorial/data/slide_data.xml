@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="weblearns_slide_cli" model="slide.slide">
+        <field name="name">CLI Commands</field>
+        <field name="sequence">0</field>
+        <field name="is_category" eval="True"/>
+        <field name="channel_id" ref="odoo_cli_command_tutorial.weblearns_odoo_cli_development_channel"/>
+        <field name="slide_type">document</field>
+    </record>
+
+    <record id="weblearns_slide_cli_1" model="slide.slide">
+        <field name="name">Configuration file.</field>
+        <field name="sequence">1</field>
+        <field name="url">https://www.youtube.com/watch?v=bbNaoEzKuxk</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="odoo_cli_command_tutorial.weblearns_odoo_cli_development_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">Generate or update configuration file.</field>
+    </record>
+
+    <record id="weblearns_slide_cli_2" model="slide.slide">
+        <field name="name">Logger Commands</field>
+        <field name="sequence">2</field>
+        <field name="url">https://www.youtube.com/watch?v=OXHPLGOTe9U</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="odoo_cli_command_tutorial.weblearns_odoo_cli_development_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">Logger CLI Commands In Odoo | Odoo Logs | DB Logs | HTTPs Logs | Odoo command line parameters.</field>
+    </record>
+
+    <record id="weblearns_slide_cli_3" model="slide.slide">
+        <field name="name">DB Commands</field>
+        <field name="sequence">3</field>
+        <field name="url">https://www.youtube.com/watch?v=av03WeGwTcY</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="odoo_cli_command_tutorial.weblearns_odoo_cli_development_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">Database related commands.</field>
+    </record>
+
+    <record id="weblearns_slide_cli_4" model="slide.slide">
+        <field name="name">Disable DB Manager.</field>
+        <field name="sequence">4</field>
+        <field name="url">https://www.youtube.com/watch?v=Nb4wLY1X9yQ</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="odoo_cli_command_tutorial.weblearns_odoo_cli_development_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">DB manager disable.</field>
+    </record>
+
+    <record id="weblearns_slide_cli_5" model="slide.slide">
+        <field name="name">Usefull CLI commands</field>
+        <field name="sequence">5</field>
+        <field name="url">https://www.youtube.com/watch?v=8AXc3xHFG4Q</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="odoo_cli_command_tutorial.weblearns_odoo_cli_development_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">Some usefull commands.</field>
+    </record>
+
+    <record id="weblearns_slide_cli_6" model="slide.slide">
+        <field name="name">Active Service</field>
+        <field name="sequence">6</field>
+        <field name="url">https://www.youtube.com/watch?v=A9dpLBp9isY</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="odoo_cli_command_tutorial.weblearns_odoo_cli_development_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">How to active odoo service using terminal.</field>
+    </record>
+
+    <record id="weblearns_slide_cli_11" model="slide.slide">
+        <field name="name">Shell CLI Commands in Odoo</field>
+        <field name="sequence">11</field>
+        <field name="url">https://www.youtube.com/watch?v=yKWJ9wkNHFU</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="odoo_cli_command_tutorial.weblearns_odoo_cli_development_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">How to use Shell command in Odoo.</field>
+    </record>
+
+    <record id="weblearns_slide_cli_12" model="slide.slide">
+        <field name="name">SCAFFOLD</field>
+        <field name="sequence">12</field>
+        <field name="url">https://www.youtube.com/watch?v=24FDfxtMxPA</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="odoo_cli_command_tutorial.weblearns_odoo_cli_development_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">SCAFFOLD CLI Command [Create Quick Custom Module In Odoo].</field>
+    </record>
+
+    <record id="weblearns_slide_cli_13" model="slide.slide">
+        <field name="name">Add custom addons</field>
+        <field name="sequence">13</field>
+        <field name="url">https://www.youtube.com/watch?v=sKL7F8E_Oec</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="odoo_cli_command_tutorial.weblearns_odoo_cli_development_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">Add multiple addons.</field>
+    </record>
+
+    <record id="weblearns_slide_cli_14" model="slide.slide">
+        <field name="name">Master Password</field>
+        <field name="sequence">14</field>
+        <field name="url">https://www.youtube.com/watch?v=VC9VzrBlDwo</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="odoo_cli_command_tutorial.weblearns_odoo_cli_development_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">Generate/Reset master password.</field>
+    </record>
+
+    <record id="weblearns_slide_cli_15" model="slide.slide">
+        <field name="name">URL Tricks</field>
+        <field name="sequence">15</field>
+        <field name="url">https://www.youtube.com/watch?v=3oUzyQRzGlw</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="odoo_cli_command_tutorial.weblearns_odoo_cli_development_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">Usefull URL tricks.</field>
+    </record>
+
+    <record id="weblearns_slide_cli_16" model="slide.slide">
+        <field name="name">Read Configuration</field>
+        <field name="sequence">16</field>
+        <field name="url">https://www.youtube.com/watch?v=qJx1lndrxxU</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="odoo_cli_command_tutorial.weblearns_odoo_cli_development_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">get information from Odoo configuration file.</field>
+    </record>
+
+</odoo>
