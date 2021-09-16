@@ -58,7 +58,7 @@
     </record>
 
     <record id="weblearns_slide_cli_5" model="slide.slide">
-        <field name="name">Usefull CLI commands</field>
+        <field name="name">Useful CLI commands</field>
         <field name="sequence">5</field>
         <field name="url">https://www.youtube.com/watch?v=8AXc3xHFG4Q</field>
         <field name="slide_type">video</field>
@@ -66,7 +66,7 @@
         <field name="is_published" eval="True"/>
         <field name="is_preview" eval="True"/>
         <field name="completion_time">1</field>
-        <field name="description">Some usefull commands.</field>
+        <field name="description">Some useful commands.</field>
     </record>
 
     <record id="weblearns_slide_cli_6" model="slide.slide">
@@ -138,7 +138,7 @@
         <field name="is_published" eval="True"/>
         <field name="is_preview" eval="True"/>
         <field name="completion_time">1</field>
-        <field name="description">Usefull URL tricks.</field>
+        <field name="description">Useful URL tricks.</field>
     </record>
 
     <record id="weblearns_slide_cli_16" model="slide.slide">

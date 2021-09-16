@@ -4,7 +4,7 @@
     'version': '14.0.0.1.0',
     'summary': 'Odoo Development Tutorial',
     'sequence': -111,
-    'description': 'Odoo 14 Development Tutorial',
+    'description': 'Odoo Development Tutorial',
     'category': 'Tutorials',
     'author': 'Weblearns',
     'maintainer': 'Weblearns',

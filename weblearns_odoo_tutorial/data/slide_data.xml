@@ -22,7 +22,7 @@
     </record>
 
     <record id="weblearns_slide_2" model="slide.slide">
-        <field name="name">Usefull URLs in Odoo</field>
+        <field name="name">Useful URLs in Odoo</field>
         <field name="sequence">2</field>
         <field name="url">https://www.youtube.com/watch?v=3oUzyQRzGlw</field>
         <field name="slide_type">video</field>
@@ -34,7 +34,7 @@
     </record>
 
     <record id="weblearns_slide_3" model="slide.slide">
-        <field name="name">Usefull CLI commands in Odoo</field>
+        <field name="name">Useful CLI commands in Odoo</field>
         <field name="sequence">3</field>
         <field name="url">https://www.youtube.com/watch?v=8AXc3xHFG4Q</field>
         <field name="slide_type">video</field>

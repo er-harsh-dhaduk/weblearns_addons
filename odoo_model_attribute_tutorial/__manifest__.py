@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 {
-    'name': 'Odoo CLI Commands Tutorial',
+    'name': "Model's Attribute Tutorial",
     'version': '14.0.0.1.0',
-    'summary': 'Odoo CLI Commands Tutorial',
+    'summary': "Model's Attribute",
     'sequence': -111,
-    'description': 'Odoo CLI Commands Tutorial',
+    'description': "Model's attribute Tutorial",
     'category': 'Tutorials',
     'author': 'Weblearns',
     'maintainer': 'Weblearns',

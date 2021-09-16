@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="weblearns_slide_attrs" model="slide.slide">
+        <field name="name">Model Attributes</field>
+        <field name="sequence">0</field>
+        <field name="is_category" eval="True"/>
+        <field name="channel_id" ref="odoo_model_attribute_tutorial.weblearns_odoo_attr_development_channel"/>
+        <field name="slide_type">document</field>
+    </record>
+
+    <record id="weblearns_slide_attrs_1" model="slide.slide">
+        <field name="name">Overview</field>
+        <field name="sequence">1</field>
+        <field name="url">https://www.youtube.com/watch?v=FzMqBI6Pn_A</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="odoo_model_attribute_tutorial.weblearns_odoo_attr_development_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">Overview of model's attribute.</field>
+    </record>
+
+    <record id="weblearns_slide_attrs_2" model="slide.slide">
+        <field name="name">_name / _table</field>
+        <field name="sequence">2</field>
+        <field name="url">https://www.youtube.com/watch?v=jFCrSdKzu_s</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="odoo_model_attribute_tutorial.weblearns_odoo_attr_development_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">How to use _name and _table attribute.</field>
+    </record>
+
+    <record id="weblearns_slide_attrs_3" model="slide.slide">
+        <field name="name">Inheritance</field>
+        <field name="sequence">3</field>
+        <field name="url">https://www.youtube.com/watch?v=2FVgDRrnXaM</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="odoo_model_attribute_tutorial.weblearns_odoo_attr_development_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">How inheritance work.</field>
+    </record>
+
+    <record id="weblearns_slide_attrs_4" model="slide.slide">
+        <field name="name">_rec_name</field>
+        <field name="sequence">4</field>
+        <field name="url">https://www.youtube.com/watch?v=EoNA7pvbSdo</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="odoo_model_attribute_tutorial.weblearns_odoo_attr_development_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">_rec_name attribute.</field>
+    </record>
+
+    <record id="weblearns_slide_attrs_5" model="slide.slide">
+        <field name="name">_order</field>
+        <field name="sequence">5</field>
+        <field name="url">https://www.youtube.com/watch?v=8AXc3xHFG4Q</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="odoo_model_attribute_tutorial.weblearns_odoo_attr_development_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">_order model attribute</field>
+    </record>
+
+    <record id="weblearns_slide_attrs_6" model="slide.slide">
+        <field name="name">_log_access</field>
+        <field name="sequence">6</field>
+        <field name="url">https://www.youtube.com/watch?v=eR9z_8dRxak</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="odoo_model_attribute_tutorial.weblearns_odoo_attr_development_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">_log_access attribute in Odoo.</field>
+    </record>
+
+    <record id="weblearns_slide_attrs_11" model="slide.slide">
+        <field name="name">_sequence</field>
+        <field name="sequence">11</field>
+        <field name="url">https://www.youtube.com/watch?v=rxlxsj9nR34</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="odoo_model_attribute_tutorial.weblearns_odoo_attr_development_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">_sequence attribute.</field>
+    </record>
+
+    <record id="weblearns_slide_attrs_12" model="slide.slide">
+        <field name="name">_sql_constraint</field>
+        <field name="sequence">12</field>
+        <field name="url">https://www.youtube.com/watch?v=_gIHf27yIq0</field>
+        <field name="slide_type">video</field>
+        <field name="channel_id" ref="odoo_model_attribute_tutorial.weblearns_odoo_attr_development_channel"/>
+        <field name="is_published" eval="True"/>
+        <field name="is_preview" eval="True"/>
+        <field name="completion_time">1</field>
+        <field name="description">_sql_constraint attribute.</field>
+    </record>
+
+</odoo>
