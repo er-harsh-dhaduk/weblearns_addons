@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <template id="wb_bank_transaction_receipt_report">
+        <t t-call="web.html_container">
+            <t t-foreach="docs" t-as="doc">
+                <t t-call="web.external_layout">
+                    <div class="page">
+                        <div class="row" id="has_header">
+                            <div class="col-12">
+                                <br/>
+                                <h2>Bank - <span t-esc="doc.bank_id.name"/>
+                                    <span t-esc="doc.bank_id.code" />
+                                </h2>
+                            </div><br/>
+                        </div>
+                        <div class="row">
+                            <div class="col-12" id="has_config_view">
+                                <br/><h4>Transaction Detail</h4><br/>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <table class="table table-bordered" style="table-layout:fixed" id="has_config_table">
+                                    <thead style="display:table-row-group">
+                                        <tr>
+                                            <th class="text-center" scope="col">Customer Name</th>
+                                            <th class="text-center" scope="col">
+                                                <span t-esc="doc.name.name" />
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="text-cetner">
+                                                Transaction
+                                            </td>
+                                            <td>
+                                                <span t-esc="doc.create_date"/>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-cetner">
+                                                Remarks
+                                            </td>
+                                            <td>
+                                                <span t-esc="doc.remarks"/>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-cetner">
+                                                Amount
+                                            </td>
+                                            <td>
+                                                <span t-esc="doc.balance"/>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="row" id="has_last_div">
+                            <div class="col-12" id="has_chain_complain">
+                                <br/><h6>This is computer generated slip, signature not required.</h6>
+                            </div>
+                        </div>
+                    </div>
+                </t>
+            </t>
+        </t>
+    </template>
+
+    <record id="action_report_bank_transaction_slip" model="ir.actions.report">
+        <field name="name">Bank Transaction Report</field>
+        <field name="model">wb.bank.transactions</field>
+        <field name="report_type">qweb-pdf</field>
+        <field name="report_name">wb_deposit_management.wb_bank_transaction_receipt_report</field>
+        <field name="report_file">wb_deposit_management.wb_bank_transaction_receipt_report</field>
+        <field name="binding_model_id" ref="model_wb_bank_transactions" />
+        <field name="binding_type">report</field>
+    </record>
+
+</odoo>

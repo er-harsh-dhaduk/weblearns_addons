@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+    <record id="wb_bank_category" model="ir.module.category">
+        <field name="name">Deposit Management</field>
+    </record>
+
+    <record id="wb_bank_staff_group" model="res.groups">
+        <field name="name">Staff</field>
+        <field name="category_id" ref="wb_bank_category" />
+        <field name="implied_ids" eval="[(4, ref('base.group_user'))]" />
+    </record>
+
+    <record id="wb_bank_manager_group" model="res.groups">
+        <field name="name">Manager</field>
+        <field name="category_id" ref="wb_bank_category" />
+        <field name="implied_ids" eval="[(4, ref('wb_deposit_management.wb_bank_staff_group'))]" />
+    </record>
+
+    <record id="wb_bank_trans_staff_rule" model="ir.rule">
+        <field name="name">Bank Transactions Staff User Rules</field>
+        <field name="domain_force">[('bank_id','=',user.wb_bank_id.id)]</field>
+        <field name="model_id" ref="model_wb_bank_transactions" />
+        <field name="groups" eval="[(4, ref('wb_deposit_management.wb_bank_staff_group'))]" />
+    </record>
+
+    <record id="wb_bank_transactions_manager_rule" model="ir.rule">
+        <field name="name">Bank Transactions Manager User Rules</field>
+        <field name="domain_force">[('bank_id','=',user.wb_bank_id.id)]</field>
+        <field name="model_id" ref="model_wb_bank_transactions" />
+        <field name="groups" eval="[(4, ref('wb_deposit_management.wb_bank_manager_group'))]" />
+    </record>
+
+    <record id="wb_bank_staff_rule" model="ir.rule">
+        <field name="name">Bank Staff User Rules</field>
+        <field name="domain_force">[('id','=',user.wb_bank_id.id)]</field>
+        <field name="model_id" ref="model_wb_bank" />
+        <field name="groups" eval="[(4, ref('wb_deposit_management.wb_bank_staff_group'))]" />
+    </record>
+
+    <record id="wb_bank_manager_rule" model="ir.rule">
+        <field name="name">Bank Manager User Rules</field>
+        <field name="domain_force">[('id','=',user.wb_bank_id.id)]</field>
+        <field name="model_id" ref="model_wb_bank" />
+        <field name="groups" eval="[(4, ref('wb_deposit_management.wb_bank_manager_group'))]" />
+    </record>
+</odoo>
