@@ -1,3 +1,0 @@
-id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_hobby_bank,bank,model_wb_bank,,1,1,1,1
-access_hobby_bank_transactions,bank transactions,model_wb_bank_transactions,,1,1,1,1
