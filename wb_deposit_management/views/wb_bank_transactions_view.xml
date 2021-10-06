@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+    <record model="ir.ui.view" id="wb_bank_transactions_form_view">
+      <field name="name">wb.bank.transactions.form.view</field>
+      <field name="model">wb.bank.transactions</field>
+      <field name="arch" type="xml">
+        <form>
+            <header>
+                <button name="transaction_done" type="object" string="Transaction" class="oe_highlight"
+                    attrs="{'invisible':[('state','=','done')]}"/>
+                <field name="state" widget="statusbar" />
+            </header>
+            <sheet>
+                <group>
+                    <group>
+                        <field name="name" attrs="{'readonly':[('state','=','done')]}"/>
+                        <field name="bank_id" attrs="{'readonly':[('state','=','done')]}"/>
+                    </group>
+                    <group>
+                        <field name="remarks" attrs="{'readonly':[('state','=','done')]}"/>
+                        <field name="balance" attrs="{'readonly':[('state','=','done')]}"/>
+                        <field name="tran_state" attrs="{'readonly':[('state','=','done')]}"/>
+                    </group>
+                </group>
+            </sheet>
+        </form>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="wb_bank_transactions_tree_view">
+      <field name="name">wb.bank.transactions.tree.view</field>
+      <field name="model">wb.bank.transactions</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name" />
+          <field name="bank_id" />
+            <field name="final_balance" sum="Final Balance" />
+          <field name="balance" sum="Total Balance"/>
+          <field name="state" />
+        </tree>
+      </field>
+    </record>
+
+    <record model="ir.actions.act_window" id="wb_bank_transactions_windows_action">
+      <field name="name">Transactions</field>
+      <field name="res_model">wb.bank.transactions</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem name="Transactions" id="wb_bank_transactions_list" parent="wb_bank_root_menu"/>
+    <menuitem name="Customer Transactions" id="wb_transaction_banks" parent="wb_bank_transactions_list"
+        action="wb_bank_transactions_windows_action"/>
+
+</odoo>

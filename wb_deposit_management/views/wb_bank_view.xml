@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+    <record model="ir.ui.view" id="wb_bank_form_view">
+      <field name="name">wb.bank.form.view</field>
+      <field name="model">wb.bank</field>
+      <field name="arch" type="xml">
+        <form>
+            <sheet>
+                <group>
+                    <group>
+                        <field name="name" />
+                        <field name="code" readonly="1"/>
+                    </group>
+                    <group>
+                        <field name="partner_id" />
+                        <field name="balance" />
+                    </group>
+                </group>
+            </sheet>
+        </form>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="wb_bank_tree_view">
+      <field name="name">wb.bank.tree.view</field>
+      <field name="model">wb.bank</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name" />
+          <field name="code" />
+          <field name="balance" />
+        </tree>
+      </field>
+    </record>
+
+    <record model="ir.actions.act_window" id="wb_bank_windows_action">
+      <field name="name">Banks</field>
+      <field name="res_model">wb.bank</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem name="Deposit Management" id="wb_bank_root_menu" />
+    <menuitem name="Bank" id="wb_bank_list" parent="wb_bank_root_menu"/>
+    <menuitem name="Banks" id="wb_banks" parent="wb_bank_list"
+        action="wb_bank_windows_action"/>
+
+</odoo>

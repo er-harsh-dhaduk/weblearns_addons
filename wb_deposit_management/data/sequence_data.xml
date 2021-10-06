@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <record id="wb_bank_sequence" model="ir.sequence">
+        <field name="name">Weblearns Bank Sequence</field>
+        <field name="code">wb.bank</field>
+        <field name="prefix">BNK</field>
+        <field name="padding">5</field>
+        <field name="number_next" eval="1" />
+        <field name="number_increment" eval="1" />
+    </record>
+
+    <record id="bank_transaction_done_email_template" model="mail.template">
+        <field name="name">Bank Transaction Notification</field>
+        <field name="email_from">${(object.bank_id.partner_id.email)}</field>
+        <field name="partner_to">${(object.name.id)}</field>
+        <field name="subject">Transaction Notification</field>
+        <field name="model_id" ref="wb_deposit_management.model_wb_bank_transactions" />
+        <field name="body_html" type="html">
+
+            <div style="margin:0px; padding:0px;">
+
+                <p>Dear, ${object.name.name}</p>
+                <p>You just did ${object.tran_state} amount ${object.balance} with us.<br/>
+                Thank you for your transactions.<br/>
+                In case you have any query please contact home branch.<br/></p>
+                <p>Best Regards,</p><br/>
+                ${object.bank_id.name}
+            </div>
+
+
+        </field>
+    </record>
+
+</odoo>
