@@ -1,11 +1,17 @@
 from odoo import api, fields, models, _
 
 
+class WBUser(models.Model):
+    _inherit = "res.users"
+
+    wb_bank_id = fields.Many2one("wb.bank", string="Bank Name")
+
+
 class WbPartner(models.Model):
     _inherit = "res.partner"
 
     wb_bank_id = fields.Many2one("wb.bank", string="Bank Name",
-                                 default=lambda lm:lm.env.user.wb_bank_id.id)
+                                 default=lambda lm:lm.env.user.wb_bank_id and lm.env.user.wb_bank_id.id or False)
     balance = fields.Float("Balance", compute="_get_final_bank_balance")
 
     def _get_final_bank_balance(self):
@@ -29,7 +35,3 @@ class WbPartner(models.Model):
             'domain':[('name','=',self.id)]
         }
 
-class WBUser(models.Model):
-    _inherit = "res.users"
-
-    wb_bank_id = fields.Many2one("wb.bank", string="Bank Name")
