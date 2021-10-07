@@ -23,6 +23,7 @@
         "views/wb_customer_view.xml",
         "report/wb_bank_transaction_report.xml"
     ],
+    'images': ['static/description/banner.gif'],
     'application':True
 
 }
